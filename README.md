@@ -1,10 +1,10 @@
 # DiscordNotify
 
-What does it do?
 Resends messages from Discord into telegram. Script resend attachments and tags username of the message author.
 Bot supports any amount of Discord tokens, Discord channels and Telegram bots. Check config.
 
-How to use?
+# How to use?
+
 Configure config.
 Bot uses "cfg.json" file as an entry point with all needed data.
 
@@ -17,7 +17,7 @@ Bot uses "cfg.json" file as an entry point with all needed data.
 3. Save "cfg.json", run the bot with "python notifier.py"
 4. You may add several ds_channels and several accounts.
 
-How to create a bot and get auth tokens?
+# How to create bots, get tokens?
 
 1. Telegram Bot
 To create a telegram bot, DM https://t.me/BotFather and follow the instructions. 
@@ -56,3 +56,8 @@ You will see the ID of the last channel where the bot fetched a message in conso
 ![image](https://user-images.githubusercontent.com/109175575/190898843-5f052556-8aa2-40df-9e92-a40f9c646881.png)
 
 Copy ID and insert into config.
+
+# Credits
+
+[Original script] (https://github.com/karamelniycoder/discord-notifier_updated)
+[Original script author] (https://github.com/karamelniycoder)
