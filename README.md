@@ -59,5 +59,6 @@ Copy ID and insert into config.
 
 # Credits
 
-[Original script] (https://github.com/karamelniycoder/discord-notifier_updated)
-[Original script author] (https://github.com/karamelniycoder)
+[Original script](https://github.com/karamelniycoder/discord-notifier_updated)
+
+[Original script author](https://github.com/karamelniycoder)
