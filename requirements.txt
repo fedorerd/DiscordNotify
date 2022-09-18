@@ -1,0 +1,4 @@
+requests==2.25.1
+telebot==0.0.4
+TgCrypto==1.2.3
+loguru==0.5.3

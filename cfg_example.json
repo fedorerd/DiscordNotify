@@ -1,0 +1,13 @@
+{
+    "accounts": [
+        {
+            "tg_botkey": "tg_token",
+            "ds_token": "ds_token",
+            "ds_channels": {
+                "ch1id": 0,
+                "ch2id": 0
+            },
+            "tg_chat": "tg_chat_id"
+        }
+    ]
+}
