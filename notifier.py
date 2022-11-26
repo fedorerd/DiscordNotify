@@ -7,6 +7,8 @@ def work():
 	for i in range(len(workers) - 1, -1, -1):
 		worker = workers[i]
 		r = requests.get(f'https://api.telegram.org/bot{worker.tg_tkn}/getUpdates?offset=-1')
+		print('Last channel ID:')
+		print(r.json()['result'][0]['message']['chat']['id'])
 		try:
 			print(f'The bot has been successfully launched, waiting for new posts.')
 		except Exception as error:
